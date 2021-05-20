@@ -10,7 +10,7 @@ let lucro1000 = 1000 * lucro;
 
 if (custo > 0 && venda > 0) {
   console.log ('Se o produto for vendido mil vezes, o vendedor terá lucro de ' + lucro1000 + 'R$');
-}else if (custo < 0 || venda <0){
+}else{
   console.log('Valor inserido inválido'); 
 }
   
