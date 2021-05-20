@@ -8,4 +8,5 @@ if (num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0) {
   console.log('False');
 }
 
-// Escreva um programa que defina três números em variáveis e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
+// Escreva um programa que defina três números em variáveis e retorne true se pelo menos uma das 
+// três for par. Caso contrário, ele retorna false .
