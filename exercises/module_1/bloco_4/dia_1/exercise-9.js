@@ -7,3 +7,5 @@ if (num1 % 2 !== 0 || num2 % 2 !== 0 || num3 % 2 !== 0) {
 }else {
   console.log('False');
 }
+
+// Escreva um programa que defina três números em variáveis e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false .
