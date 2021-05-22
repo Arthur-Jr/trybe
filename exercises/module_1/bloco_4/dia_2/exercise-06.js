@@ -7,5 +7,5 @@ for (let index = 0; index < numbers.length; index += 1) {
 }
 console.log(odd);
 
-// Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, 
-// imprima a mensagem: "nenhum valor ímpar encontrado";
+// O program irá verificar quantos números ímpares existem no array e imprima-los em resultado. 
+// Caso não exista nenhum, irá imprimir : "Nenhum valor impar encontrado.". 

@@ -4,5 +4,4 @@ for (let index of numbers) {
   console.log(index);
 }
 
-// Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos 
-// com a função console.log() ;
+// O programa percorre o array imprimindo todos os valores nele contidos.

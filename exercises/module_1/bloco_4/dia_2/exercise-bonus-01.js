@@ -11,4 +11,4 @@ for (let index = 1; index < numbers.length; index += 1) {
 }
 console.log(numbers);
 
-// Ordene o array numbers em ordem crescente e imprima seus valores;
+// O programa ordena o array numbers em ordem crescente e imprime seus valores.

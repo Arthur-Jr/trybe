@@ -8,4 +8,4 @@ for (let index = 0; index < numbers.length; index += 1) {
 let resultado = soma / numbers.length; 
 console.log(resultado);
 
-// Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
+// O programa calcula e imprime a média aritmética dos valores contidos no array;

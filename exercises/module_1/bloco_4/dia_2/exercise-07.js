@@ -8,4 +8,4 @@ for (let index = 1; index < numbers.length; index += 1) {
 }
 console.log(menorNumero);
 
-// Utilizando for , descubra qual o menor valor contido no array e imprima-o;
+// O programa deve descubrir qual o menor valor contido no array e imprima-lo.

@@ -12,4 +12,4 @@ for (index = 1; index < numbers.length; index += 1) {
 
 console.log(numbers);
 
-// Ordene o array numbers em ordem decrescente e imprima seus valores;
+// O programa ordena o array numbers em ordem decrescente e imprime seus valores.

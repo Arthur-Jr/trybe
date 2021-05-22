@@ -12,5 +12,5 @@ for (let index2 = 0; index2 < numbers.length; index2 += 1) {
 }
 console.log(divisao);
 
-// Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos 
-// elementos por 2 .
+// Utilizando o array criado no exercício anterior, o programa imprime o resultado da divisão de cada 
+// um dos elementos por 2 .
