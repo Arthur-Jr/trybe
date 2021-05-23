@@ -7,7 +7,7 @@ for (line = 1; line <= n; line += 1) {
   symbol += '*';
   for (index = 0; index < n; index += 1) {
     if (index < n - line){
-      space += '/';
+      space += ' ';
     }else if (index > n - line) {
       break;
     }else{
