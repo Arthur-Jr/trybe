@@ -1,4 +1,4 @@
-let n = 10;
+let n = 5;
 let result = '';
 let space = '';
 let symbol = '';
@@ -17,3 +17,5 @@ for (line = 1; line <= n; line += 1) {
   console.log(result);
   space = '';
 }
+
+// O programa imprime um triângulo retângulo com 5 asteriscos de base com o lado invertido.
