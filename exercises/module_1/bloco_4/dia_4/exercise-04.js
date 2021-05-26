@@ -1,5 +1,4 @@
-function menorValor() {
-  let numbers = [2, 4, 6, 7, 10, 0, -3];
+function menorValor(numbers) {
   let menorNumero = numbers[0];
   let indexResult = 0;
 
@@ -12,6 +11,6 @@ function menorValor() {
   return indexResult;
 };
 
-console.log(menorValor());
+console.log(menorValor([2, 4, 6, 7, 10, 0, -3]));
 
 // O programa retorna o indice com o menor valor numérico.

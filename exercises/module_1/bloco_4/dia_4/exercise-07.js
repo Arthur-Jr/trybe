@@ -1,5 +1,4 @@
-function soma() {
-  let n = 5;
+function soma(n) {
   let result = 0;
 
   for (let index = 1; index <= n; index += 1) {
@@ -8,6 +7,6 @@ function soma() {
   return result;
 };
 
-console.log(soma());
+console.log(soma(5));
 
 // O programa recebe um número inteiro N e retorna o somatório de todos os números de 1 até N.
