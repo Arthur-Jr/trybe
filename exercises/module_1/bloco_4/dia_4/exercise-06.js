@@ -23,3 +23,4 @@ function numberRepeat() {
 console.log(numberRepeat());
 
 // O programa recebe um array de inteiros e retorna o inteiro que mais se repete.
+// Chequei o gabarito da trybe para ter uma base de como fazer.
