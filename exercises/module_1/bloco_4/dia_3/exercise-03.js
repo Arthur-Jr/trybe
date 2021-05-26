@@ -19,3 +19,4 @@ for (line = 1; line <= n; line += 1) {
 }
 
 // O programa imprime um triângulo retângulo com 5 asteriscos de base com o lado invertido.
+// Chequei o gabarito da trybe para ter uma base de como fazer.
