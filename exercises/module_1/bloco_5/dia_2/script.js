@@ -44,3 +44,6 @@ createTag('h3', mainContent, 'description');
 // Remove / left-content
 removeElements(mainContent, mainContent.firstChild.nextSibling);
 
+// Edit/style right-content
+document.querySelector('.right-content').style.margin = 'auto';
+
