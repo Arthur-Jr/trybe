@@ -21,6 +21,9 @@ centerContent.firstChild.innerText = 'Aprendendo DOM.'
 
 //div left-content
 creatTag('div', mainContent, 'left-content');
+creatTag('img', mainContent.firstChild.nextSibling, 'small-image')
+document.querySelector('.small-image').src= 'https://picsum.photos/200';
+
 
 //div right-content
 creatTag('div', mainContent, 'right-content');
