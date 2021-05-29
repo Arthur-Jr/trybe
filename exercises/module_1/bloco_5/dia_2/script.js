@@ -4,6 +4,9 @@ function createTag (type, father, classN) {
   father.appendChild(tag);
   tag.className = classN;
 }
+function removeElements(father, target) {
+  father.removeChild(target);
+}
 
 //body/ h1 
 createTag('h1', body, 'title');
@@ -34,6 +37,10 @@ for(let listIndex = 0; listIndex < list.length; listIndex += 1) {
 }
 
 // main-content/ h3 h3
-createTag('h3', mainContent, 'h3');
-createTag('h3', mainContent, 'h3');
-createTag('h3', mainContent, 'h3');
+createTag('h3', mainContent, 'description');
+createTag('h3', mainContent, 'description');
+createTag('h3', mainContent, 'description');
+
+// Remove / left-content
+removeElements(mainContent, mainContent.firstChild.nextSibling);
+
