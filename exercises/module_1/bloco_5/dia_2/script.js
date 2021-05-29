@@ -31,7 +31,7 @@ document.querySelector('.small-image').src= 'https://picsum.photos/200';
 //main-content/ div  right-content
 createTag('div', mainContent, 'right-content');
 createTag('ul', mainContent.lastChild, 'ul');
-let list = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'nove', 'dez'];
+let list = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete','oito', 'nove', 'dez'];
 for(let listIndex = 0; listIndex < list.length; listIndex += 1) {
   createTag('li', mainContent.lastChild.firstChild, 'li');
 }
@@ -50,4 +50,6 @@ document.querySelector('.right-content').style.margin = 'auto';
 // Edit/style center-content
 document.querySelector('.center-content').style.backgroundColor = 'green';
 
-// 
+// Remove/ ul childs
+removeElements(document.querySelector('.ul'), document.querySelector('.ul').lastChild);
+removeElements(document.querySelector('.ul'), document.querySelector('.ul').lastChild);
