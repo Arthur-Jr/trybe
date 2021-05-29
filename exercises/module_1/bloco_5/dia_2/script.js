@@ -47,3 +47,7 @@ removeElements(mainContent, mainContent.firstChild.nextSibling);
 // Edit/style right-content
 document.querySelector('.right-content').style.margin = 'auto';
 
+// Edit/style center-content
+document.querySelector('.center-content').style.backgroundColor = 'green';
+
+// 
