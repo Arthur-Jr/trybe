@@ -49,10 +49,20 @@ function createButton(string, idName, father) {
   father.appendChild(tag);
 }
 
+// Cria span com classe definida.
+function createTask(string, classN, father) {
+  const tag = document.createElement('span');
+  tag.className = classN;
+  tag.innerText = string;
+  father.appendChild(tag);
+}
+
 // Criação de tags.
 createButton('Feriados', 'btn-holiday', buttonContainer);
 
 createButton('Sexta-feira', 'btn-friday', buttonContainer);
+
+createTask('Estudar', 'task', document.querySelector('.my-tasks'));
 
 // Destaca os dias que são feriados.
 function indentifyHoliday() {
@@ -78,7 +88,26 @@ function indentifyFriday() {
   }
 }
 
+// Dá zoom no dia, quando o mouse passa por cima.
+function mouseEnterZoom(e) {
+  if (e.target.classList.contains('day')){
+    e.target.style.transform = 'scale(3.0)';
+  }
+}
+
+// Retira o zoom quando o mouse sai de cima do elemento.
+function mouseLeaveZoom(e) {
+  if (e.target.classList.contains('day')){
+    e.target.style.transform = 'scale(1.0)';
+  }
+  // aprendi sobre o transform, neste link:
+  // https://www.w3schools.com/howto/howto_css_zoom_hover.asp
+}
+
 // Event Listener
 document.querySelector('#btn-holiday').addEventListener('click', indentifyHoliday);
 
 document.querySelector('#btn-friday').addEventListener('click', indentifyFriday);
+
+document.addEventListener('mouseover', mouseEnterZoom);
+document.addEventListener('mouseout', mouseLeaveZoom);
