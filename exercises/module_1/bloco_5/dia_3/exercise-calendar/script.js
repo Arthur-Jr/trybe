@@ -50,3 +50,18 @@ function createButton(string, idName, father) {
 
 // Criação de tags.
 createButton('Feriados', 'btn-holiday', document.querySelector('.buttons-container'));
+
+// Destaca os dias que são feriados.
+function indentifyHoliday() {
+  const holidays = document.querySelectorAll('.holiday');
+  for (let index = 0; index < holidays.length; index += 1) {
+    if (holidays[index].style.backgroundColor === 'yellow') {
+      holidays[index].style.backgroundColor = 'rgb(238,238,238)';
+    } else {
+      holidays[index].style.backgroundColor = 'yellow';
+    }
+  }
+}
+
+// Event Listener
+document.querySelector('#btn-holiday').addEventListener('click', indentifyHoliday);
