@@ -66,5 +66,19 @@ function indentifyHoliday() {
   }
 }
 
+// Destaca as sexta-feiras.
+function indentifyFriday() {
+  const days = document.querySelectorAll('.day');
+  for (let index = 0; index < days.length; index += 1) {
+    if (days[index].innerText === 'Sextou!') {
+      days[index].innerText = index - 1;
+    } else if (days[index].classList.contains('friday')) { 
+      days[index].innerText = 'Sextou!';
+    }
+  }
+}
+
 // Event Listener
 document.querySelector('#btn-holiday').addEventListener('click', indentifyHoliday);
+
+document.querySelector('#btn-friday').addEventListener('click', indentifyFriday);
