@@ -50,19 +50,28 @@ function createButton(string, idName, father) {
 }
 
 // Cria span com classe definida.
-function createTask(string, classN, father) {
+function createTask() {
   const tag = document.createElement('span');
-  tag.className = classN;
-  tag.innerText = string;
-  father.appendChild(tag);
+  tag.className = 'tasks';
+  tag.innerText = document.querySelector('#task-input').value;
+  document.querySelector('.my-tasks').appendChild(tag);
+}
+
+// Cria uma div com backgroundColor.
+function createDiv() {
+  const colors = ['black', 'green', 'yellow', 'violet', 'grey', 'brown', 'red', 'blue', 'purple', 'pink',
+  'orange', 'silver', 'gold', 'navy', 'aqua', 'darkred', 'darkorange', 'darkviolet', 'beige', 'coral'];
+  const save = Math.floor(Math.random() * colors.length);
+  const tag = document.createElement('div');
+  tag.className = 'task';
+  tag.style.backgroundColor = colors[save];
+  document.querySelector('.my-tasks').appendChild(tag);
 }
 
 // Criação de tags.
 createButton('Feriados', 'btn-holiday', buttonContainer);
 
 createButton('Sexta-feira', 'btn-friday', buttonContainer);
-
-createTask('Estudar', 'task', document.querySelector('.my-tasks'));
 
 // Destaca os dias que são feriados.
 function indentifyHoliday() {
@@ -104,6 +113,17 @@ function mouseLeaveZoom(e) {
   // https://www.w3schools.com/howto/howto_css_zoom_hover.asp
 }
 
+function clickSelected(e) {
+  const task = document.querySelectorAll('#task');
+  if (e.target.classList.contains('task')){
+    if (e.target.classList.contains('selected')) {
+      e.target.classList.remove('selected');
+    } else {
+      e.target.classList.add('selected');
+    }
+  }
+}
+
 // Event Listener
 document.querySelector('#btn-holiday').addEventListener('click', indentifyHoliday);
 
@@ -111,3 +131,8 @@ document.querySelector('#btn-friday').addEventListener('click', indentifyFriday)
 
 document.addEventListener('mouseover', mouseEnterZoom);
 document.addEventListener('mouseout', mouseLeaveZoom);
+
+document.querySelector('#btn-add').addEventListener('click', createTask);
+document.querySelector('#btn-add').addEventListener('click', createDiv);
+
+document.addEventListener('click', clickSelected);
