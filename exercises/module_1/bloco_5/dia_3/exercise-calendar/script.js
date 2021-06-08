@@ -51,21 +51,28 @@ function createButton(string, idName, father) {
 
 // Cria span com classe definida.
 function createTask() {
-  const tag = document.createElement('span');
-  tag.className = 'tasks';
-  tag.innerText = document.querySelector('#task-input').value;
-  document.querySelector('.my-tasks').appendChild(tag);
+  const inputValue = document.querySelector('#task-input').value;
+  if (inputValue === '') {
+    alert('Erro! Adicione algo na caixa de texo');
+  } else {
+    const tag = document.createElement('span');
+    tag.className = 'tasks';
+    tag.innerText = inputValue;
+    document.querySelector('.my-tasks').appendChild(tag);
+  }
 }
 
 // Cria uma div com backgroundColor.
 function createDiv() {
-  const colors = ['black', 'green', 'yellow', 'violet', 'grey', 'brown', 'red', 'blue', 'purple', 'pink',
-  'orange', 'silver', 'gold', 'navy', 'aqua', 'darkred', 'darkorange', 'darkviolet', 'beige', 'coral'];
-  const save = Math.floor(Math.random() * colors.length);
-  const tag = document.createElement('div');
-  tag.className = 'task';
-  tag.style.backgroundColor = colors[save];
-  document.querySelector('.my-tasks').appendChild(tag);
+  if (document.querySelector('#task-input').value !== '') {
+    const colors = ['black', 'green', 'yellow', 'violet', 'grey', 'brown', 'red', 'blue', 'purple', 'pink',
+    'orange', 'silver', 'gold', 'navy', 'aqua', 'darkred', 'darkorange', 'darkviolet', 'beige', 'coral'];
+    const save = Math.floor(Math.random() * colors.length);
+    const tag = document.createElement('div');
+    tag.className = 'task';
+    tag.style.backgroundColor = colors[save];
+    document.querySelector('.my-tasks').appendChild(tag);
+  }
 }
 
 // Criação de tags.
@@ -113,6 +120,7 @@ function mouseLeaveZoom(e) {
   // https://www.w3schools.com/howto/howto_css_zoom_hover.asp
 }
 
+// Seleciona uma tarefa com click.
 function clickSelected(e) {
   const task = document.querySelectorAll('#task');
   if (e.target.classList.contains('task')){
@@ -120,6 +128,48 @@ function clickSelected(e) {
       e.target.classList.remove('selected');
     } else {
       e.target.classList.add('selected');
+    }
+  }
+}
+
+// Adiciona o bgColor do selected no dia clicado.
+function changeBgColor(e) {
+  const selected = document.querySelector('.selected').style.backgroundColor;
+  if (e.target.classList.contains('day')) {
+    if (e.target.style.backgroundColor === selected) {
+    e.target.style.backgroundColor = '#eee';  
+    } else {
+      e.target.style.backgroundColor = selected;
+    }
+  }
+}
+
+// Cria uma div com backgroundColor quando a tecla enter é pressionada.
+function createDivKey(e) {
+  if (e.key === 'Enter') {
+    if (document.querySelector('#task-input').value !== '') {
+      const colors = ['black', 'green', 'yellow', 'violet', 'grey', 'brown', 'red', 'blue', 'purple', 'pink',
+      'orange', 'silver', 'gold', 'navy', 'aqua', 'darkred', 'darkorange', 'darkviolet', 'beige', 'coral'];
+      const save = Math.floor(Math.random() * colors.length);
+      const tag = document.createElement('div');
+      tag.className = 'task';
+      tag.style.backgroundColor = colors[save];
+      document.querySelector('.my-tasks').appendChild(tag);
+    }
+  }
+}
+
+// Cria span com classe definida quando a tecla enter é pressionada..
+function createTaskKey(e) {
+  if (e.key === 'Enter') {
+    const inputValue = document.querySelector('#task-input').value;
+    if (inputValue === '') {
+      alert('Erro! Adicione algo na caixa de texo');
+    } else {
+      const tag = document.createElement('span');
+      tag.className = 'tasks';
+      tag.innerText = inputValue;
+      document.querySelector('.my-tasks').appendChild(tag);
     }
   }
 }
@@ -135,4 +185,11 @@ document.addEventListener('mouseout', mouseLeaveZoom);
 document.querySelector('#btn-add').addEventListener('click', createTask);
 document.querySelector('#btn-add').addEventListener('click', createDiv);
 
+document.querySelector('#task-input').addEventListener('keypress', createTaskKey);
+document.querySelector('#task-input').addEventListener('keypress', createDivKey);
+// Aprendi sobre o keypress, neste link:
+// https://www.w3schools.com/JSREF/event_key_keycode.asp
+
 document.addEventListener('click', clickSelected);
+
+document.addEventListener('click', changeBgColor);
