@@ -99,17 +99,18 @@ document.querySelector('#btn-submit').addEventListener('click', function(e) {
 
 document.querySelector('#btn-show-last').addEventListener('click', function() {
   
-    const name = sessionStorage.getItem('name');
-    const email = sessionStorage.getItem('email');
-    const cpf = sessionStorage.getItem('cpf');
-    const adress = sessionStorage.getItem('adress');
-    const city = sessionStorage.getItem('city');
-    const state = sessionStorage.getItem('state');
-    const abstract = sessionStorage.getItem('abstract');
-    const role = sessionStorage.getItem('role');
-    const description = sessionStorage.getItem('description');
-    const date = sessionStorage.getItem('date');
-
+  const name = sessionStorage.getItem('name');
+  const email = sessionStorage.getItem('email');
+  const cpf = sessionStorage.getItem('cpf');
+  const adress = sessionStorage.getItem('adress');
+  const city = sessionStorage.getItem('city');
+  const state = sessionStorage.getItem('state');
+  const abstract = sessionStorage.getItem('abstract');
+  const role = sessionStorage.getItem('role');
+  const description = sessionStorage.getItem('description');
+  const date = sessionStorage.getItem('date');
+  
+  if (name && description !== null){
     getInfo('Nome completo: ', name);
     getInfo('Email: ', email);
     getInfo('CPF: ', cpf);
@@ -120,5 +121,14 @@ document.querySelector('#btn-show-last').addEventListener('click', function() {
     getInfo('cargo: ', role);
     getInfo('Descrição: ', description);
     getInfo('Data de inicio: ', date);
+  }
+});
 
+// Limpar informações.
+document.querySelector('#btn-clear').addEventListener('click', function() {
+  const savedInfo = saveInfo.children;
+  for(let index = savedInfo.length - 1; index <= savedInfo.length && index >= 0; index -= 1) {
+    saveInfo.removeChild(savedInfo[index]);
+  }
+  sessionStorage.clear();
 });
