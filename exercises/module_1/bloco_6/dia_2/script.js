@@ -10,93 +10,74 @@ function getInfo(key, value) {
 // Click do botão submit.
 document.querySelector('#btn-submit').addEventListener('click', function(e) {
   
-  // Checa o campo nome.
+  // Condições.
+  new JustValidate('.form', {
+    rules: {
+      date: {
+        required: true
+      },
+      textArea1: {
+        required: true,
+        minLength: 5
+      },
+      textArea: {
+        required: true,
+        minLength: 5
+      },
+      cpf: {
+        required: true,
+        minLength: 11
+      },
+      radio: {
+        required: true
+      },
+      text1: {
+        required: true
+      },
+      text2: {
+        required: true
+      },
+      text: {
+        required: true
+      },
+    },
+    messages: {
+      textArea: {
+        required: 'The field is required',
+        minLength: 'The field must contain a minimum of 5 characters'
+      },
+      text: {
+        required: 'The field is required'
+      } 
+    },
+  });  
+
+  // Salva value dos campos do formulário no sessionStorage.
   const name = document.querySelector('#full-name');
-  if (name.value.length > 40) {
-    e.preventDefault()
-    alert('O campo nome completo excede limite de caracteres!');
-  } else if (name.value !== '') {
-    sessionStorage.setItem('name', name.value);
-  }
-
-  // Checa o campo email.
   const email = document.querySelector('#input-email');
-  if (email.value.length > 50) {
-    e.preventDefault()
-    alert('O campo email excede limite de caracteres!');
-  } else if (email.value !== '') {
-    sessionStorage.setItem('email', email.value);
-  }
-
-
-  // Checa o campo cpf.
   const cpf = document.querySelector('#input-cpf');
-  if (cpf.value.length > 11) {
-    e.preventDefault()
-    alert('O campo CPF excede limite de caracteres!');
-  } else if (cpf.value !== '') {
-    sessionStorage.setItem('cpf', cpf.value);
-  }
-
-
-  // Checa o campo endereço.
   const adress = document.querySelector('#input-adress');
-  if (adress.value.length > 200) {
-    e.preventDefault()
-    alert('O campo endereço excede limite de caracteres!');
-  } else if (adress.value !== '') {
-    sessionStorage.setItem('adress', adress.value);
-  }
-
-
-  // Checa o campo cidade.
   const city = document.querySelector('#input-city');
-  if (city.value.length > 28) {
-    e.preventDefault()
-    alert('O campo cidade excede limite de caracteres!');
-  } else if (city.value !== '') {
-    sessionStorage.setItem('city', city.value);
-  }
-
-  // Salva a informção do campo estado.
   const state = document.querySelector('#select-state');
-  sessionStorage.setItem('state', state.value);
-
-  // Checa o campo resumo.
   const abstract = document.querySelector('#input-abstract');
-  if (abstract.value.length > 1000) {
-    e.preventDefault()
-    alert('O campo resumo do seu curriculo excede limite de caracteres!');
-  } else if (abstract.value !== '') {
-    sessionStorage.setItem('abstract', abstract.value);
-  }
-
-
-  // Checa o campo cargo.
   const role = document.querySelector('#input-role');
-  if (role.value.length > 40) {
-    e.preventDefault()
-    alert('O campo cargo excede limite de caracteres!');
-  } else if (role.value !== '') {
-    sessionStorage.setItem('role', role.value);
-  }
-
-
-  // Checa o campo descrição.
   const description = document.querySelector('#input-description');
-  if (description.value.length > 500) {
-    e.preventDefault()
-    alert('O campo descrição do cargo excede limite de caracteres!');
-  } else if (description.value !== '') {
-    sessionStorage.setItem('description', description.value);
-  }
-
-  // Salva a informação do campo data de inicio.
   const date = document.querySelector('#input-date');
+
+  sessionStorage.setItem('name', name.value);
+  sessionStorage.setItem('email', email.value);
+  sessionStorage.setItem('cpf', cpf.value);
+  sessionStorage.setItem('adress', adress.value);
+  sessionStorage.setItem('city', city.value);
+  sessionStorage.setItem('state', state.value);
+  sessionStorage.setItem('abstract', abstract.value);
+  sessionStorage.setItem('role', role.value);
+  sessionStorage.setItem('description', description.value);
   sessionStorage.setItem('date', date.value);
   
 });
 
+// Pega as values salvas.
 document.querySelector('#btn-show-last').addEventListener('click', function() {
   
   const name = sessionStorage.getItem('name');

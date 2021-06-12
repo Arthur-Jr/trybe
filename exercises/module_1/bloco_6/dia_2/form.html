@@ -12,36 +12,36 @@
     <h1>Formulário</h1>
   </header>
   
-  <form action="" method="GET" id="form" class="container">
+  <form action="" method="GET" class="container form">
     
     <div class="mb-3">
       <label class="form-label" for="full-name">Nome Completo:</label>
-        <input class="form-control" type="text" id="full-name" name="full-name" required>
+        <input class="form-control" type="text" id="full-name" name="full-name" data-validate-field="name">
     </div>
         
     <div class="mb-3">
       <label class="form-label" for="input-email">Email:</label>
-      <input class="form-control" type="email" name="email" id="input-email" required>
+      <input class="form-control" type="email" name="email" id="input-email" data-validate-field="email">
     </div>
 
     <div class="mb-3">
       <label class="form-label" for="input-cpf">CPF:</label>
-      <input class="form-control" type="number" name="cpf" id="input-cpf" min="11" required>
+      <input class="form-control" type="number" name="cpf" id="input-cpf" data-validate-field="cpf">
     </div>
 
     <div class="mb-3">
       <label class="form-label" for="input-adress">Endereço:</label>
-      <input class="form-control" type="text" name="adress" id="input-adress" required>
+      <input class="form-control" type="text" name="adress" id="input-adress" data-validate-field="text1">
     </div>
 
     <div class="mb-3">
       <label class="form-label" for="input-city">Cidade:</label>
-      <input class="form-control" type="text" name="city" id="input-city" required>
+      <input class="form-control" type="text" name="city" id="input-city" data-validate-field="text2">
     </div>
 
     <div class="mb-3">
       <label class="form-label" for="select-state">Estado onde você mora:</label>
-      <select class="form-select" name="Estado" id="select-state" required>
+      <select class="form-select" name="Estado" id="select-state" data-validate-field="select">
             <option value="AC">Acre</option>
             <option value="AL">Alagoas</option>
             <option value="AP">Amapá</option>
@@ -75,31 +75,31 @@
     <div class="mb-3">
       <p class="form-label">Onde você mora:</p>
 
-      <input class="form-check-input" type="radio" name="house" id="input-house" required checked>
+      <input class="form-check-input" type="radio" name="house" id="input-house" checked data-validate-field="radio">
       <label class="form-check-label" for="input-house">Casa</label>
 
-      <input class="form-check-input" type="radio" name="house" id="input-house" required>
+      <input class="form-check-input" type="radio" name="house" id="input-house" data-validate-field="radio">
       <label class="form-check-label" for="input-house">Apartamento</label>
     </div>
       
     <div class="mb-3">
       <label class="form-label" for="input-abstract">Resumo do seu curriculo:</label>
-      <textarea class="form-control" name="abstract" id="input-abstract" cols="1000" required></textarea>
+      <textarea class="form-control" name="abstract" id="input-abstract" data-validate-field="textArea1"></textarea>
     </div>
 
     <div class="mb-3">
       <label class="form-label" for="input-role">Cargo:</label>
-      <input class="form-control" type="text" name="cargo" id="input-role"required>
+      <input class="form-control" type="text" name="cargo" id="input-role" data-validate-field="text">
     </div>
 
     <div class="mb-3">
       <label class="form-label" for="input-description">Descrição do cargo:</label>
-      <textarea class="form-control" type="text" name="description" id="input-description" required></textarea>
+      <textarea class="form-control" name="description" id="input-description" data-validate-field="textArea"></textarea>
     </div>
 
     <div class="mb-3">
       <label class="form-label" for="input-date">Data de inicio:</label>
-      <input class="form-control" type="date" name="data" id="input-date">
+      <input class="form-control" type="date" name="data" id="input-date" data-validate-field="date">
     </div>
 
     <button class="btn btn-success" type="submit" id="btn-submit">Enviar</button>
@@ -111,6 +111,7 @@
     <div class="container" id="save"></div>
   </div>
 
+  <script src="/node_modules/just-validate/dist/js/just-validate.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
