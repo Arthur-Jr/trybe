@@ -11,7 +11,7 @@
 *.code-workspace
 package-lock.json
 
-node_modules/*
+node_modules/
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
