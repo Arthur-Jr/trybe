@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 class="counter">0</h1>
+  <button class="btn">click!</button>
+
+  <script>
+    const counter = document.querySelector('.counter');
+    const button = document.querySelector('.btn');
+    let clickCount = 0
+
+    button.addEventListener('click', () => {
+      clickCount += 1
+      counter.innerText = clickCount;
+    });
+    
+    // Toda vez que o botão for clicado a variável clickCount e o H1 são atualizados, ganhando + 1.
+  </script>
+</body>
+</html>
