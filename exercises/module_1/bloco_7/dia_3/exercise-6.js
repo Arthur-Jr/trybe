@@ -17,3 +17,5 @@ const output = addOne(myArray);
 assert.strictEqual(typeof addOne, 'function');
 assert.deepStrictEqual(output, expected);
 assert.deepStrictEqual(myArray, unchanged);
+
+// Uma funtion foi criada a partir das const e dos testes unitários.
