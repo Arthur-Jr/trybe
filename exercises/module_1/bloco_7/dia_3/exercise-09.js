@@ -24,3 +24,5 @@ words = ['plant', 'shelf', 'arrow', 'bird'];
 expected = -1;
 output = findTheNeedle(words, 'plat');
 assert.strictEqual(output, expected);
+
+// Uma funtion foi criada a partir das const e dos testes unitários.
