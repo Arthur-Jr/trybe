@@ -6,7 +6,7 @@ function checkValue(value, change) {
     if (sum + value[index] > change) {
       value.splice(index, 1);
       index -= 1;
-    } else if (sum + (value[index] + value[index]) === change) {
+    } else if (sum + (value[index] + value[index]) <= change) {
       result.push(value[index]);
       result.push(value[index]);
       sum += value[index] + value[index];
