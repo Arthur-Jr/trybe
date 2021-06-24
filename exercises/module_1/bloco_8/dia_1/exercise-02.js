@@ -26,3 +26,5 @@ draw(null, checkDraw);
 draw(undefined, checkDraw);
 draw(6 , checkDraw);
 });
+
+// Checa se o número que foi dado é igual ao número sorteado aleatoriamente.

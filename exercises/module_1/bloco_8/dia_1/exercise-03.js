@@ -33,3 +33,5 @@ assert.throws(() => {
   verify(1, studentAnswers, check);
   verify({}, studentAnswers, check);
 });
+
+// Checa o número de questões corretas e informa a nota.

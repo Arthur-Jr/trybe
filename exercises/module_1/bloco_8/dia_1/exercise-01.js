@@ -33,3 +33,6 @@ assert.throws(() => {
   createEmail({ });
   createEmail(1);
 });
+
+
+// A function pega o nome do employee e gera um e-mail com o nome do mesmo.
