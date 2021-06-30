@@ -10,3 +10,4 @@ assert.deepStrictEqual(toObject(palio), { name: 'Palio', brand: 'Fiat', year: 20
 assert.deepStrictEqual(toObject(shelbyCobra), { name: 'Shelby Cobra', brand: 'Ford', year: 1963 });
 assert.deepStrictEqual(toObject(chiron), { name: 'Chiron', brand: 'Bugatti', year: 2016 });
 
+// A função cria um objeto com as informações do carro organizada.
