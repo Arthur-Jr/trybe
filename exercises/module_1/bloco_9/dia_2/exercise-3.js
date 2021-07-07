@@ -17,6 +17,7 @@ const fetchPromisse = async() => {
   }catch (error) {
     console.log('É mais de oito mil! Essa promise deve estar quebrada');
   }
+  // Usei o gabarito para tirar algumas dúvidas
 }
 
 fetchPromisse();
