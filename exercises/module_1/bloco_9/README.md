@@ -1,3 +1,3 @@
 # Javascript Assincrono e Promises
 
-### javascript assincrono e promises.
+### Atividades relacionadas a javascript assincrono e promises.
