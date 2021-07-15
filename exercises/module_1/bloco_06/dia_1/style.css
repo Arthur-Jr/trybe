@@ -1,0 +1,13 @@
+#input-abstract {
+  height: 100px;
+  width: 100%;
+}
+
+#input-description {
+  height: 100px;
+  width: 100%;
+}
+
+#save {
+  padding: 10px;
+}
