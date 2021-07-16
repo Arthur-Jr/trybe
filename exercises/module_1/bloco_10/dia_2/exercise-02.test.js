@@ -1,5 +1,4 @@
-const { expect } = require('@jest/globals');
-const getUserName = require('./exercise-02');
+const getUserName = require('./exercise-02-03');
 
 describe('Test getUserName function', () => {
 
@@ -10,7 +9,7 @@ describe('Test getUserName function', () => {
     });    
   });
 
-  it('should return a erro message', () => {
+  it('should return a error message', () => {
     expect.assertions(1);
     return getUserName(6).catch((result) => {
       expect(result).toEqual({ error: 'User with 6 not found.' })
