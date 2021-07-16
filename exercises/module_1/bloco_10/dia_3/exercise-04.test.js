@@ -1,4 +1,4 @@
-const exercise = require('./exercise-04');
+const exercise = require('./exercise-04-05');
 jest.mock("./exercise-04");
 
 describe('Test changeCase function', () => {
