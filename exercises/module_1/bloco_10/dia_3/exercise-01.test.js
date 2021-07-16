@@ -1,4 +1,4 @@
-const exercise = require('./exercise-01-02');
+const exercise = require('./exercise-01-02-03');
 
 describe('Test getRandomNumber', () => {
   
