@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Button from '../components/Button';
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -16,7 +17,7 @@ export default class Home extends React.Component {
   render() {
     return(
       <div>
-        <button type="button" onClick={ this.handleClick }>Fazer Login</button>
+        <Button handleClick={ this.handleClick } text='Fazer Login' />
       </div>
     );
   }

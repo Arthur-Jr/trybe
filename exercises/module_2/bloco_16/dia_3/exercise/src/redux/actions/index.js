@@ -1,3 +1,3 @@
-export const NEW_ACTION = 'NEW_ACTION';
+export const LOGIN_ACTION = 'LOGIN_ACTION';
 
-export const action = (payload) => ({ type: NEW_ACTION, payload });
+export const login = (data) => ({ type: LOGIN_ACTION, data });
