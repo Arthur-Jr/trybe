@@ -4,6 +4,7 @@ import Button from '../components/Button';
 import Input from '../components/Input';
 import { connect } from 'react-redux';
 import { login } from '../redux/actions';
+import validateEmail from '../services/EmailValidate';
 
 class Login extends React.Component {
   constructor(props) {
@@ -25,7 +26,7 @@ class Login extends React.Component {
   handleClick() {
     const { history, loginDispatch } = this.props;
     const { user, password } = this.state;
-    const userValidate = this.validateUser(user);
+    const userValidate = validateEmail(user);
     const passwordValidate = this.validatePassword(password);
 
     if( userValidate && passwordValidate ) {
@@ -35,15 +36,6 @@ class Login extends React.Component {
     } else {
       alert('Usuario ou senha invalido');
     }
-  }
-
-  validateUser(user) {
-    if (/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(user)) {
-      return true;
-    }
-    return false;
-    // Olhei sobre o regex para email, neste link:
-    // https://www.w3resource.com/javascript/form/email-validation.php
   }
 
   validatePassword(password) {

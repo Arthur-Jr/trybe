@@ -15,8 +15,22 @@ class Clients extends React.Component {
     history.push('/register');
   }
 
+  displayClients() {
+    const { clients } = this.props;
+    return clients.map((client) => {
+      const { nome, idade, email } = client;
+      return <div key={ email }>
+        <p>{`Nome: ${nome}`}</p>
+        <p>{`Idade: ${idade}`}</p>
+        <p>{`Email: ${email}`}</p>
+      </div>;
+    });
+
+  }
+
   render() {
-    const { login } = this.props;
+    const { login, clients } = this.props;
+    const noClient = <h1>Nenhum cliente cadastrado</h1>;
     
     if(login.user === undefined ) {
       return(<div><h1>Login não efetuado</h1></div>);
@@ -24,7 +38,7 @@ class Clients extends React.Component {
 
     return(
       <div>
-        <h1>Nenhum cliente cadastrado</h1>
+        { clients.length === 0 ? noClient : this.displayClients() }
         <Button handleClick={ this.handleClick } text='Cadastrar cliente' />
       </div>
     );
@@ -32,7 +46,8 @@ class Clients extends React.Component {
 }
 
 const mapStateToProps = (state) => ({
-  login: state.loginReducer
+  login: state.loginReducer,
+  clients: state.addReducer,
 });
 
 export default connect(mapStateToProps, null)(Clients);
@@ -44,4 +59,5 @@ Clients.propTypes = {
   history: PropTypes.shape({
     push: PropTypes.func,
   }).isRequired,
+  clients: PropTypes.arrayOf(PropTypes.object),
 };
