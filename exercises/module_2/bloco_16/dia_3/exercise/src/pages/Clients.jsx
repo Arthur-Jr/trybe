@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Button from '../components/Button';
+import { removeClient } from '../redux/actions';
 
 class Clients extends React.Component {
   constructor(props) {
@@ -17,15 +18,25 @@ class Clients extends React.Component {
 
   displayClients() {
     const { clients } = this.props;
-    return clients.map((client) => {
+    return clients.map((client, index) => {
       const { nome, idade, email } = client;
       return <div key={ email }>
         <p>{`Nome: ${nome}`}</p>
         <p>{`Idade: ${idade}`}</p>
         <p>{`Email: ${email}`}</p>
+        <Button
+          handleClick={ () => this.removeClick(index) }
+          text='Remover cliente'
+        />
       </div>;
     });
+  }
 
+  removeClick(index) {
+    const { clients, remove } = this.props;
+    const newClientList = [...clients];
+    newClientList.splice(index, 1);
+    remove(newClientList);
   }
 
   render() {
@@ -50,7 +61,11 @@ const mapStateToProps = (state) => ({
   clients: state.addReducer,
 });
 
-export default connect(mapStateToProps, null)(Clients);
+const mapDispatchToProps = (dispatch) => ({
+  remove: (clients) => dispatch(removeClient(clients)),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Clients);
 
 Clients.propTypes = {
   login: PropTypes.shape({
@@ -60,4 +75,5 @@ Clients.propTypes = {
     push: PropTypes.func,
   }).isRequired,
   clients: PropTypes.arrayOf(PropTypes.object),
+  remove: PropTypes.func.isRequired,
 };
