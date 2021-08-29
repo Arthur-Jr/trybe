@@ -38,7 +38,9 @@ const mapStateToProps = (state) => ({
 export default connect(mapStateToProps, null)(Clients);
 
 Clients.propTypes = {
-  login: PropTypes.string.isRequired,
+  login: PropTypes.shape({
+    user: PropTypes.any,
+  }).isRequired,
   history: PropTypes.shape({
     push: PropTypes.func,
   }).isRequired,
