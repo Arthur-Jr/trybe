@@ -1,4 +1,4 @@
-# Introdução - Desenvolvimento Front-end
+# Introdução - Desenvolvimento Front-end :white_check_mark:
 
 ### Bloco 11: Introdução - React
 ### Bloco 12: Componentes com Estado, Eventos e Formulários com React
