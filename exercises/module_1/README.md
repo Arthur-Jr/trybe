@@ -1,4 +1,4 @@
-# Introdução - Fundamentos do Desenvolvimento Web
+# Introdução - Fundamentos do Desenvolvimento Web :green_check_mark:
 
 ### Bloco 1: Introdução - Unix & Shell
 ### Bloco 2: Git & GitHub
