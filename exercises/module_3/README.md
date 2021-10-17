@@ -1,4 +1,4 @@
-# Introdução - Desenvolvimento Back-end
+# Introdução - Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ### Bloco 19: Introdução - Bancos de dados relacionais
 ### Bloco 20: Bancos de dados relacionais
