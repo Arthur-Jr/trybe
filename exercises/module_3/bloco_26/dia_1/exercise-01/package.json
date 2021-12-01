@@ -1,0 +1,21 @@
+{
+  "name": "my-scripts",
+  "version": "1.0.0",
+  "description": "exercise-01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "imc": "node IMC.js",
+    "velocidade": "node velocidade.js",
+    "sorteio": "node sorteio.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "exercise-01"
+  ],
+  "author": "Arthur-Jr",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
