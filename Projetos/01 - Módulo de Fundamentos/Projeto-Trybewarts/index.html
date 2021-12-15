@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trybe warts</title>
+
+  <!-- Icone do 'menu hambúrguer' -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header class="header">
+    <img src="images/trybewarts-header-logo.svg" alt="Logo" class="trybewarts-header-logo">
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
+
+    <div class="login-container">
+      <form action="" class="trybewarts-login">
+        <input type="text" placeholder="Login" id="login">
+        <input type="password" placeholder="Senha" id="password">
+        <button id="btn-login">Logar</button>
+      </form>
+
+      <!-- 'menu hambúrguer' -->
+      <a href="javascript:void(0);" class="icon">
+        <i class="fa fa-bars"></i>
+      </a>
+      <!-- Aprendi como cria o 'menu hambúrguer', neste link:
+      https://www.w3schools.com/howto/howto_js_mobile_navbar.asp -->
+    </div>
+    
+  </header>
+  
+  <nav class="responsive-menu"></nav>
+
+  <main id="main-content">
+
+    <form action="" id="evaluation-form">
+      <div id="name-lastname">
+        <div class="form-field">
+          <input type="text" id="input-name" placeholder="Nome" name="nome">
+        </div>
+
+        <div class="form-field">
+          <input type="text" id="input-lastname" placeholder="Sobrenome" name="sobrenome">
+        </div>
+      </div>
+
+      <div id="email-house">
+        <div class="form-field">
+          <input type="text" id="input-email" placeholder="Email" name="email">
+        </div>
+
+        <div class="form-field">
+          <select id="house" name="casa">
+            <option value="Gitnória" id="gitnoria-house">Gitnoria</option>
+            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="radio-input" class="form-field">
+        <label for="" id="label-family">Qual sua família?</label>
+        <div>
+          <input value="Frontend" type="radio" name="family">Frontend
+        </div>
+        <div>
+          <input value="Backend" type="radio" name="family">Backend
+        </div>
+        <div>
+          <input value="FullStack" type="radio" name="family">FullStack
+        </div>
+      </div>
+      
+      <div class="form-field">
+        <div>
+          <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+        </div>
+        <div>
+          <input type="checkbox" class="subject" value="HoFs">HoFs
+          <input type="checkbox" class="subject" value="Jest">Jest
+          <input type="checkbox" class="subject" value="Promises">Promises
+          <input type="checkbox" class="subject" value="React">React
+          <input type="checkbox" class="subject" value="SQL">SQL
+          <input type="checkbox" class="subject" value="Python">Python
+        </div>
+      </div>
+    
+      <div class="form-field">
+        <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
+        <input type="radio" value="1" name="rate">1
+        <input type="radio" value="2" name="rate">2
+        <input type="radio" value="3" name="rate">3
+        <input type="radio" value="4" name="rate">4
+        <input type="radio" value="5" name="rate">5
+        <input type="radio" value="6" name="rate">6
+        <input type="radio" value="7" name="rate">7
+        <input type="radio" value="8" name="rate">8
+        <input type="radio" value="9" name="rate">9
+        <input type="radio" value="10" name="rate">10
+      </div>
+
+      <div class="form-field">
+        <label for="" class="textarea">Deixe seu comentário:</label>
+        <textarea name="textarea" id="textarea" cols="50" rows="4" maxlength="500"></textarea>
+        <h3 id="counter">500</h3>
+      </div>
+
+      <div class="form-field">
+        <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?"</label>
+        <input type="checkbox" id="agreement" required>
+      </div>
+
+      <button type="submit" id="submit-btn" disabled>Enviar</button>
+
+    </form>
+
+  </main>
+
+  <div class="image-container">
+    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
+  </div>
+
+  <footer>
+    <h2>Direitos reservados à Trybewarts©</h2>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
