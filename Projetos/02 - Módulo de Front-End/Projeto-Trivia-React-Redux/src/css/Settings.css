@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: Montserrat , sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.settings-page {
+  align-items: center;
+  background-color: #874dbf;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.settingHeader {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  height: 15vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.settingHeader h1 {
+  color: #333;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.settingForm {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.selectsDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.selectsDiv select, .selectsDiv input {
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 30px;
+  text-align: center;
+  width: 45%;
+}
+
+.selectsDiv label {
+  background-color: rgb(0 0 0 / 0.1);
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+  margin: 3px;
+  padding: 20px;
+}
+
+.selectsDiv option {
+  font-size: 20px;
+}
+
+.save-settings {
+  align-items: flex-end;
+  display: flex;
+  height: 60px;
+  width: 20rem;
+}
+
+.save-settings button {
+  background-color: #66bf39;
+  color: white;
+  font-size: 20px;
+  height: 42px;
+  width: 100%;
+}
+
+
+.save-settings button:hover {
+  background-color: #5cad33;
+  border-bottom: 1px solid rgb(0 0 0 / 0.25);
+}
