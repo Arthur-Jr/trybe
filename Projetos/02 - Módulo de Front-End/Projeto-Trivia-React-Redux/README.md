@@ -25,4 +25,11 @@ Neste projeto, Pratiquei:
 
 ---
 
+Grupo:
+  - <a href="https://github.com/Btriz">Beatriz</a>
+  - <a href="https://github.com/bvottri">Bruna Vottri</a>
+  - <a href="https://github.com/marcusrodriguesdev">Marcus Rodrigues</a>
+
+---
+
 <h3>Projeto criado pela <a href="https://www.betrybe.com/">Trybe</a></h3>
