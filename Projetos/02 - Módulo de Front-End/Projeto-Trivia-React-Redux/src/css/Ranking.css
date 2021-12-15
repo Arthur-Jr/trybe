@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  font-family: Montserrat , Helvetica Neue , Helvetica , Arial , sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.ranking-page {
+  background-color: #46178f;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.ranking-page header {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  height: 15vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.ranking-page h1 {
+  color: #333;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.logoTrivia {
+  height: 60px;
+}
+
+.logoButtonContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2rem;
+  position: relative;
+  width: 100%;
+}
+
+.back-button {
+  align-items: flex-end;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  right: 1.5rem;
+  width: 170px;
+}
+
+.back-button button {
+  background-color: #1368ce;
+  color: white;
+  font-size: 1rem;
+  height: 48px;
+}
+
+.back-button button:hover {
+  background-color: #1161c2;
+  border-bottom: 1px solid rgb(0 0 0 / 25%);
+}
+
+.invisible {
+  display: none;
+}
+
+.ranking-main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 85vh;
+}
+
+.ranking-list {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  list-style-type: none;
+  margin: auto;
+  width: 70%;
+}
+
+.ranking-list-item {
+  padding: 0.5rem 2rem;
+}
+
+.ranking-list-item:nth-of-type( 1 ) {
+  background-color: white;
+  border-radius: 4px;
+  color: #333;
+}
+
+.list-item-content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-name {
+  display: flex;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.number {
+  align-items: center;
+  display: flex;
+  font-size: 17px;
+  margin-right: 15px;
+}
