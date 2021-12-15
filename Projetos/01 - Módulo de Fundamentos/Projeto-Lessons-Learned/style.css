@@ -1,0 +1,159 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+}
+
+#cabecalho {
+  background-color: rgb(18, 165, 109);
+  position: fixed;
+  width: 100%;
+}
+
+#titulo {
+  color: white;
+  text-align: center;
+}
+
+#nav ul {
+  background-color: rgb(13, 100, 67);
+  margin-bottom: 1px;
+  padding-bottom: 15px;
+}
+
+#nav ul li {
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 200px;
+  padding-top: 15px;
+}
+
+/* Informei me sobre o (:link) e (:visited) ,das linha 34 e 38,
+no site: w3schools.com/css/css_link.asp */
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+#principal {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 20px;
+  width: 1000px;
+}
+
+#principal h2 {
+  font-style: italic;
+}
+
+#minha_foto {
+  margin-top: 125px;
+  width: 200px;
+  margin-bottom: 1px;
+  border: 2px solid black;
+}
+
+#lista-1 {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+#licoes_aprendidas {
+  line-height: 22px;
+}
+
+#lista-2 {
+  display: inline-block;
+  margin-left: 300px;
+}
+
+#licoes_a_aprender {
+  line-height: 22px;
+  list-style: square;
+}
+
+#rodape {
+  background-color: rgb(18, 165, 109);
+  padding: 1px;
+}
+
+#rodape h3 {
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
+
+#nome {
+  display: block;
+  width: 100px;
+}
+
+#link {
+  background-color: rgb(18, 165, 109);
+  border: 2px solid black;
+  border-radius: 100px;
+  display: block;
+  font-size: 2em;
+  font-style: italic;
+  margin-left: 500px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.lado-esquerdo {
+  padding: 5px;
+  float: left;
+  width: 48%;
+}
+
+.lado-direito {
+  padding: 5px;
+  float: right;
+  width: 48%;
+}
+
+#aside {
+  background-color: rgb(18, 165, 109);
+  border: solid black;
+  color: white;
+  float: right;
+  padding: 20px;
+  margin-top: 200px;
+  width: 200px;
+}
+
+#aside h2 {
+  font-family: Girassol, sans-serif;
+}
+
+#aside p {
+  line-height: 25px;
+}
+
+#table {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+#table h2 {
+  font-style: italic;
+  text-align: center;
+}
+
+#table table {
+  border: 2px solid black;
+  padding: 5px;
+  width: 100%;
+}
+
+#table table tr td {
+  border: 1px solid black;
+  width: 200px;
+  text-align: center;
+}
