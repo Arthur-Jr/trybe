@@ -103,31 +103,31 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
 - [x] 13-2: _Ciclo de vida de componentes em React_
 - [x] 13-3: _React Router_
-- [x] 13-4: _[Projeto - Movie Cards Library CRUD]()_
+- [x] 13-4: _[Projeto - Movie Cards Library CRUD](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/02%20-%20M%C3%B3dulo%20de%20Front-End/Projeto-Movie-Card-Library-Crud)_
 
 ##### Bloco 14: Metodologias Ágeis
 
 - [x] 14-1: _Metodologias ágeis_
-- [x] 14-2: _[Projeto - Frontend Online Store]()_
+- [x] 14-2: _[Projeto - Frontend Online Store](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/02%20-%20M%C3%B3dulo%20de%20Front-End/Projeto-Online-Store)_
 
 ##### Bloco 15: Testes em React
 
 - [x] 15-1: _Testando React com a React Testing Library_
 - [x] 15-2: _Testando React com a React Testing Library - Parte 2_
-- [x] 15-3: _[Projeto - Testes em React]()_
+- [x] 15-3: _[Projeto - Testes em React](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/02%20-%20M%C3%B3dulo%20de%20Front-End/Projeto-React-Testing-Library)_
 
 ##### Bloco 16: Introdução ao Redux
 
 - [x] 16-1: _Introdução ao Redux_
 - [x] 16-2: _React com Redux - Parte 1_
-- [x] 16-3: _React com Redux - PrÃ¡tica_
+- [x] 16-3: _React com Redux - Prática_
 - [x] 16-4: _React com Redux - Parte 2_
 - [x] 16-5: _Testes síncronos com React-Redux_
-- [x] 16-6: _[Projeto - Tabela com filtros de dados]()_
+- [x] 16-6: _[Projeto - TrybeWallet]()_
 
 ##### Bloco 17: Projeto React
 
-- [x] 17-1: _[Projeto - Jogo de Trivia]()_
+- [x] 17-1: _[Projeto - Jogo de Trivia](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/02%20-%20M%C3%B3dulo%20de%20Front-End/Projeto-Trivia-React-Redux)_
 
 ##### Bloco 18: React & Context API
 
@@ -138,7 +138,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ##### Bloco 19: Projeto Final de Front-end
 
-- [x] 19-1: _[Projeto - App de Receitas]()_
+- [x] 19-1: _[Projeto - App de Receitas](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/02%20-%20M%C3%B3dulo%20de%20Front-End/Projeto-Recipes-App)_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
