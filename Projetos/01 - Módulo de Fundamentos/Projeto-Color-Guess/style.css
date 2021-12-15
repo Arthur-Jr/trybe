@@ -1,0 +1,32 @@
+#title {
+  text-align: center;
+}
+
+#rgb-color {
+  text-align: center;
+}
+
+#ball-container {
+  padding-left: 31%;
+}
+
+.ball {
+  border: 1px solid black;
+  border-radius: 100%;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 35px;
+}
+
+#answer {
+  text-align: center;
+}
+
+#reset-game {
+  display: block;
+  margin: auto;
+}
+
+#main span {
+  font-size: 30px;
+}
