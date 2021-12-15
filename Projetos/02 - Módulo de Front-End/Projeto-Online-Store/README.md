@@ -1,3 +1,5 @@
+<h1>Trabalho em Grupo</h1>
+
 ## O que foi desenvolvido
 
 Neste projeto foi desenvolvido uma versão simplificada, sem persistência no banco de dados, de uma **loja online**, desenvolvendo em grupo suas funcionalidades de acordo com demandas definidas em um quadro _Kanban_, em um cenário mais próximo ao do mercado de trabalho. A partir dessas demandas, teremos uma aplicação onde os usuários poderão:
