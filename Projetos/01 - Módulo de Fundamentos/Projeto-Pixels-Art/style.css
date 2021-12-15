@@ -1,0 +1,39 @@
+#title {
+  text-align: center;
+}
+
+#color-palette {
+  display: table;
+  margin: auto;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 30px;
+  margin-left: 5px;
+}
+
+#pixel-board {
+  display: table;
+  margin: auto;
+
+  /* Aprendi como usar o table, table-row e cell em DIVs, neste link:
+  https://stackoverflow.com/questions/29229523/how-and-why-to-use-display-table-cell-css
+  */
+}
+
+.tr {
+  display: table-row;
+}
+
+.td {
+  display: table-cell;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+}
