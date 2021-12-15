@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Meme Generator</title>
+</head>
+
+<body>
+  <header id="header">
+    <h1>Meme Generator</h1>
+  </header>
+  
+  <main id="main">
+    
+    <div class="input-container">
+      <label for="text-input">Texto: </label>
+      <input type="text" id="text-input" maxlength="60">
+    </div>
+
+    <div class="input-container">
+      <label for="meme-insert">Imagem: </label>
+      <input type="file" id="meme-insert" accept="image/*" >
+    </div>
+
+    <div id="meme-image-container">
+      <span id="meme-text"></span>
+      <img id="meme-image">
+    </div>
+    
+    <div id="button-container">
+      <p>A escolha da sua vida:</p>
+      <button id="fire">Charmander</button>
+      <button id="water">Squirtle</button>
+      <button id="earth">Bulbasaur</button>
+    </div>
+    
+    <div id="default-memes-container">
+      <div class="meme-container"><img class="dafault-meme" src="imgs/meme1.png" id="meme-1"></div>
+      <div class="meme-container"><img class="dafault-meme" src="imgs/meme2.png" id="meme-2"></div>
+      <div class="meme-container"><img class="dafault-meme" src="imgs/meme3.png" id="meme-3"></div>
+      <div class="meme-container"><img class="dafault-meme" src="imgs/meme4.png" id="meme-4"></div>
+    </div>
+    
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
