@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [x] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML Semântico_
-- [x] 3-5: _[Projeto - HTML & CSS]()_
+- [x] 3-5: _[Projeto - Lessons Learned](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/01%20-%20M%C3%B3dulo%20de%20Fundamentos/Projeto-Lessons-Learned)_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -33,7 +33,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - Lógica de programação e Algoritmos_
 - [x] 4-4: _JavaScript - Objetos e funções_
-- [x] 4-5: _[Projeto - Playground Functions]()_
+- [x] 4-5: _[Projeto - Playground Functions](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/01%20-%20M%C3%B3dulo%20de%20Fundamentos/Projeto-Playground-Functions)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
@@ -41,11 +41,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage_
-- [x] 5-5: _[Projeto - Meme Generator]()_
-- [x] 5-6: _[Projeto - Arte com Pixels]()_
-- [x] 5-7: _[Projeto - Lista de tarefas]()_
-- [x] 5-7: _[Projeto - Adivinhe a Cor]()_
-- [x] 5-7: _[Projeto - Carta Misteriosa]()_
+- [x] 5-5: _[Projeto - Meme Generator](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/01%20-%20M%C3%B3dulo%20de%20Fundamentos/Projeto-Meme-Generator)_
+- [x] 5-6: _[Projeto - Arte com Pixels](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/01%20-%20M%C3%B3dulo%20de%20Fundamentos/Projeto-Pixels-Art)_
+- [x] 5-7: _[Projeto - Lista de tarefas](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/01%20-%20M%C3%B3dulo%20de%20Fundamentos/Project-Todo-List)_
+- [x] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/01%20-%20M%C3%B3dulo%20de%20Fundamentos/Projeto-Color-Guess)_
+- [x] 5-7: _[Projeto - Carta Misteriosa](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/01%20-%20M%C3%B3dulo%20de%20Fundamentos/Project-Mistery-Letter)_
 
 ##### Bloco 6: HTML & CSS avançado
 
@@ -54,14 +54,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 6-3: _CSS Flexbox - Part 1_
 - [x] 6-4: _CSS Flexbox - Part 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [x] 6-6: _[Projeto - TrybeWarts]()_
+- [x] 6-6: _[Projeto - TrybeWarts](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/01%20-%20M%C3%B3dulo%20de%20Fundamentos/Projeto-Trybewarts)_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _Testes unitÃ¡rios em JavaScript_
-- [x] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/01%20-%20M%C3%B3dulo%20de%20Fundamentos/Projeto-Js-Unit-Tests)_
 
 ##### Bloco 8: JavaScript ES6
 
@@ -69,20 +69,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
 - [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [x] 8-5: _[Projeto - Zoo functions]()_
+- [x] 8-5: _[Projeto - Zoo functions](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/01%20-%20M%C3%B3dulo%20de%20Fundamentos/Projeto-Zoo-Functions)_
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
 - [x] 9-1: _JavaScript Assíncrono e Callbacks_
 - [x] 9-2: _JavaScript Promises_
-- [x] 9-3: _[Projeto - Carrinho de Compras]()_
+- [x] 9-3: _[Projeto - Carrinho de Compras](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/01%20-%20M%C3%B3dulo%20de%20Fundamentos/Projeto-Shopping-Cart)_
 
 ##### Bloco 10: Jest
 
 - [x] 10-1: _Primeiros passos no Jest_
 - [x] 10-2: _Jest - Testes Assíncronos_
 - [x] 10-3: _Jest - Simulando comportamentos_
-- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
+- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/01%20-%20M%C3%B3dulo%20de%20Fundamentos/Projeto-Jest)_
 
 ## Desenvolvimento Front-end :white_check_mark:
 
@@ -90,13 +90,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [x] 11-1: _'Hello, world!' no React!_
 - [x] 11-2: _Componentes React_
-- [x] 11-3: _[Projeto - Movie Cards Library]()_
+- [x] 11-3: _[Projeto - Movie Cards Library](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/02%20-%20M%C3%B3dulo%20de%20Front-End/Projeto-Movie-Cards-Library)_
 
 ##### Bloco 12: React
 
 - [x] 12-1: _Components com estado_
 - [x] 12-2: _Eventos e formuários no React_
-- [x] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [x] 12-3: _[Projeto - Movie Cards Library Stateful](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/02%20-%20M%C3%B3dulo%20de%20Front-End/Projeto-Movie-Cards-Library-Stateful)_
 
 ##### Bloco 13: React
 
