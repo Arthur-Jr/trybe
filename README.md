@@ -123,7 +123,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 16-3: _React com Redux - Prática_
 - [x] 16-4: _React com Redux - Parte 2_
 - [x] 16-5: _Testes síncronos com React-Redux_
-- [x] 16-6: _[Projeto - TrybeWallet]()_
+- [x] 16-6: _[Projeto - TrybeWallet](https://github.com/Arthur-Jr/wallet)_
 
 ##### Bloco 17: Projeto React
 
@@ -134,7 +134,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 18-1: _Context API do React_
 - [x] 18-2: _React Hooks - useState e useContext_
 - [x] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [x] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [x] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/Arthur-Jr/starwars-planet-finder)_
 - [x] 18-5: _[Projeto - App de Receitas](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/02%20-%20M%C3%B3dulo%20de%20Front-End/Projeto-Recipes-App)_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
