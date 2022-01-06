@@ -198,15 +198,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [x] 27-1: _Express: HTTP com Node.js_
 - [x] 27-2: _Arquitetura de Software - Introduçãoo ao MCS_
-- [x] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [x] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
+- [x] 27-3: _Arquitetura de Software - Camada de Serviço_
+- [x] 27-4: _Arquitetura web - Rest e Restful_
+- [ ] 27-5: _Arquitetura de Software - Testando as Camadas_
+- [ ] 27-6: _[Projeto - Store Manager]()_
 
-##### Bloco 28: NodeJS
+##### Bloco 28: NodeJS - JWT
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
+- [ ] 28-1: _NodeJS - JWT - (JSON Web Token)_
+- [ ] 28-2: _NodeJS - Upload de arquivos com Multer_
+- [ ] 28-3: _[Projeto - Cookmaster V2]()_
 
 ##### Bloco 30: IntroduÃ§Ã£o - Deploy
 
