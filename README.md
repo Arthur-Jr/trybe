@@ -200,20 +200,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 27-2: _Arquitetura de Software - Introduçãoo ao MCS_
 - [x] 27-3: _Arquitetura de Software - Camada de Serviço_
 - [x] 27-4: _Arquitetura web - Rest e Restful_
-- [ ] 27-5: _Arquitetura de Software - Testando as Camadas_
-- [ ] 27-6: _[Projeto - Store Manager]()_
+- [x] 27-5: _Arquitetura de Software - Testando as Camadas_
+- [x] 27-6: _[Projeto - Store Manager](https://github.com/Arthur-Jr/Store-Manager)_
 
 ##### Bloco 28: NodeJS - JWT
 
-- [ ] 28-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 28-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 28-3: _[Projeto - Cookmaster V2]()_
+- [x] 28-1: _NodeJS - JWT - (JSON Web Token)_
+- [x] 28-2: _NodeJS - Upload de arquivos com Multer_
+- [x] 28-3: _[Projeto - Cookmaster](https://github.com/Arthur-Jr/CookMaster)_
 
-##### Bloco 30: IntroduÃ§Ã£o - Deploy
+##### Bloco 29: Introdução - Deploy
 
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
+- [x] 30-1: _Infraestrutura - Deploy com Heroku_
+- [x] 30-2: _Deploy - Gerenciadores de Processos_
+- [x] 30-3: _[Projeto - Stranger Things]()_
 
 ##### Bloco 31: Projeto
 
