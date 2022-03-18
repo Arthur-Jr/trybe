@@ -137,7 +137,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/Arthur-Jr/starwars-planet-finder)_
 - [x] 18-5: _[Projeto - App de Receitas](https://github.com/Arthur-Jr/trybe-projetos/tree/main/Projetos/02%20-%20M%C3%B3dulo%20de%20Front-End/Projeto-Recipes-App)_
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end :white_check_mark:
 
 ##### Bloco 19: Introdução - Bancos de dados relacionais
 
@@ -211,47 +211,34 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ##### Bloco 29: Introdução - Deploy
 
-- [x] 30-1: _Infraestrutura - Deploy com Heroku_
-- [x] 30-2: _Deploy - Gerenciadores de Processos_
-- [x] 30-3: _[Projeto - Stranger Things]()_
+- [x] 29-1: _Infraestrutura - Deploy com Heroku_
+- [x] 29-2: _Deploy - Gerenciadores de Processos_
+- [x] 29-3: _[Projeto - Stranger Things]()_
 
-##### Bloco 31: Projeto
+##### Bloco 30: Arquitetura de Software
 
-- [ ] 31-1: _[Projeto - Trybeer]()_
+- [x] 30-1: _Arquitetura - Princípios SOLID_
+- [x] 30-2: _ORM - Interface da aplicação com o banco de dados_
+- [x] 30-3: _ORM - Associations_
+- [x] 30-4: _[Projeto - API de Blogs](https://github.com/Arthur-Jr/blogs-api)_
 
-##### Bloco 32: Arquitetura de Software
+##### Bloco 31: Sockets
 
-- [ ] 32-1: _Arquitetura - Princípios SOLID_
-- [ ] 32-2: _ORM - Interface da aplicaÃ§Ã£o com o banco de dados_
-- [ ] 32-3: _Arquitetura de Software - DDD_
-- [ ] 32-4: _Boas práticas na escrita de testes_
-- [ ] 32-3: _[Projeto - API de Blogs]()_
+- [x] 31-1: _Sockets - TCP/UDP & NET_
+- [x] 31-2: _Sockets - Socket.io_
+- [x] 31-3: _[Projeto - Webchat]()_
 
-##### Bloco 33: Sockets
+##### Bloco 32: Projeto
 
-- [ ] 30-1: _Sockets - TCP/UDP & NET_
-- [ ] 30-2: _Sockets - Socket.io_
-- [ ] 30-3: _[Projeto - Webchat]()_
-
-##### Bloco 34: Projeto
-
-- [ ] 34-1: _[Projeto - Trybeer V2]()_
+- [x] 32-1: _[Projeto - Trybeer V2]()_
 
 ## Ciéncia da Computação :hourglass_flowing_sand:
 
-##### Bloco 35: IntroduÃ§Ã£o - CiÃªncia da ComputaÃ§Ã£o
+##### Bloco 33: Introdução à Python
 
-- [ ] 35-1: _Arquitetura de Computadores_
-- [ ] 35-2: _Arquitetura de redes_
-- [ ] 35-3: _Redes de computadores, ferramentas e seguranÃ§a_
-- [ ] 35-4: _[Projeto - Explorando os protocolos]()_
-
-##### Bloco 36: Python
-
-- [ ] 35-1: _Aprendendo Python_
-- [ ] 35-2: _Testes e Exceções_
-- [ ] 35-3: _Entrada e Saída de dados_
-- [ ] 36-4: _Entrada e Saída de dados_
-- [ ] 35-5: _[Projeto - Tech news]()_
+- [x] 33-1: _Aprendendo Python_
+- [x] 33-2: _Entrada e Saída de Dados_
+- [ ] 33-3: _Testes_
+- [ ] 33-4: _[Projeto - Job Insights]()_
 
 # [...]
